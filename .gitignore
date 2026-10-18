@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Test / coverage output
+coverage/
+.vitest/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Private keys, certificates and signing material
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+*.truststore
+*.gpg
+*.asc
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# Credentials and local secret configuration
+.netrc
+.netrc.*
+.pypirc
+.htpasswd
+.auth.json
+auth.json
+.npmrc.local
+.npmrc.*.local
+.git-credentials
+credentials.json
+secrets/
+secrets.*
+*.secrets
+
+# NOTE: .npmrc itself is tracked on purpose. It carries pnpm behaviour settings
+# (strict-peer-dependencies, link-workspace-packages) and must never hold a
+# registry token. Put machine-local overrides in .npmrc.local, which is ignored above.
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local scratch reports (P<NN>-report.md files are intentionally committed)
+reports/*.tmp
