@@ -1,0 +1,10 @@
+{
+  "request": {
+    "endpoint": "https://api.osv.dev/v1/query",
+    "ecosystem": "npm",
+    "name": "chalk",
+    "version": "4.1.2"
+  },
+  "recordedAt": "2026-10-08T19:26:05.244Z",
+  "response": {}
+}

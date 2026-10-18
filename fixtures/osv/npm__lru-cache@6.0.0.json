@@ -1,0 +1,10 @@
+{
+  "request": {
+    "endpoint": "https://api.osv.dev/v1/query",
+    "ecosystem": "npm",
+    "name": "lru-cache",
+    "version": "6.0.0"
+  },
+  "recordedAt": "2026-10-08T19:26:10.752Z",
+  "response": {}
+}
