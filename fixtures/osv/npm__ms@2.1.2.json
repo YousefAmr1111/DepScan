@@ -1,0 +1,10 @@
+{
+  "request": {
+    "endpoint": "https://api.osv.dev/v1/query",
+    "ecosystem": "npm",
+    "name": "ms",
+    "version": "2.1.2"
+  },
+  "recordedAt": "2026-10-08T19:26:13.008Z",
+  "response": {}
+}

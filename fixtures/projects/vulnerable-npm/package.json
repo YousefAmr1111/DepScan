@@ -1,0 +1,12 @@
+{
+  "name": "fixture-vulnerable-npm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fixture project with old direct dependencies that carry known advisories. Ground truth lives in EXPECTED.md.",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.20",
+    "minimist": "1.2.5",
+    "qs": "5.2.0"
+  }
+}

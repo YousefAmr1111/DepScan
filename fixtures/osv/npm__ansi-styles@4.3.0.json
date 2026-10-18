@@ -1,0 +1,10 @@
+{
+  "request": {
+    "endpoint": "https://api.osv.dev/v1/query",
+    "ecosystem": "npm",
+    "name": "ansi-styles",
+    "version": "4.3.0"
+  },
+  "recordedAt": "2026-10-08T19:26:07.877Z",
+  "response": {}
+}

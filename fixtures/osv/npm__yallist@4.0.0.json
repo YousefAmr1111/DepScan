@@ -1,0 +1,10 @@
+{
+  "request": {
+    "endpoint": "https://api.osv.dev/v1/query",
+    "ecosystem": "npm",
+    "name": "yallist",
+    "version": "4.0.0"
+  },
+  "recordedAt": "2026-10-08T19:26:12.189Z",
+  "response": {}
+}

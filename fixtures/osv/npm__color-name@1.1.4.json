@@ -1,0 +1,10 @@
+{
+  "request": {
+    "endpoint": "https://api.osv.dev/v1/query",
+    "ecosystem": "npm",
+    "name": "color-name",
+    "version": "1.1.4"
+  },
+  "recordedAt": "2026-10-08T19:26:09.311Z",
+  "response": {}
+}

@@ -1,0 +1,10 @@
+{
+  "request": {
+    "endpoint": "https://api.osv.dev/v1/query",
+    "ecosystem": "npm",
+    "name": "has-flag",
+    "version": "4.0.0"
+  },
+  "recordedAt": "2026-10-08T19:26:10.027Z",
+  "response": {}
+}
