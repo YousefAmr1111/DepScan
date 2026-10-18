@@ -36,7 +36,7 @@ importers:
         specifier: ^5.0.3
         version: 5.0.3(@types/node@26.6.4)(vite@8.3.4(@types/node@26.6.4))
 
-  packages/cli:
+  cli:
     dependencies:
       '@depscan/core':
         specifier: workspace:*
@@ -55,7 +55,7 @@ importers:
         specifier: ^5.0.3
         version: 5.0.3(@types/node@26.6.4)(vite@8.3.4(@types/node@26.6.4))
 
-  packages/core:
+  core:
     devDependencies:
       '@types/node':
         specifier: ^26.6.4
@@ -70,7 +70,7 @@ importers:
         specifier: ^5.0.3
         version: 5.0.3(@types/node@26.6.4)(vite@8.3.4(@types/node@26.6.4))
 
-  packages/dashboard: {}
+  dashboard: {}
 
 packages:
 

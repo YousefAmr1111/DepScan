@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 import { describe, expect, it } from 'vitest';
 
-const PROJECTS_DIR = fileURLToPath(new URL('../fixtures/projects/', import.meta.url));
+const PROJECTS_DIR = fileURLToPath(new URL('../../fixtures/projects/', import.meta.url));
 
 const NPM_FIXTURES = ['clean-npm', 'vulnerable-npm', 'transitive-npm'] as const;
 

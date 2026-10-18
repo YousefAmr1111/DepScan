@@ -37,7 +37,7 @@ export default tseslint.config(
   },
   {
     // Build/test config files are not part of a package tsconfig project.
-    files: ['packages/*/vitest.config.ts'],
+    files: ['**/vitest.config.ts'],
     extends: [tseslint.configs.disableTypeChecked],
   },
   prettierConfig,

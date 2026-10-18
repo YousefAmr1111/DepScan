@@ -9,9 +9,9 @@ import type { OsvHttp } from './osv-http.js';
 import type { OsvQuery, OsvVulnerability } from './osv-types.js';
 import type { Report } from './types.js';
 
-export const PROJECTS_DIR = fileURLToPath(new URL('../fixtures/projects/', import.meta.url));
+export const PROJECTS_DIR = fileURLToPath(new URL('../../fixtures/projects/', import.meta.url));
 
-export const OSV_RECORDINGS_DIR = fileURLToPath(new URL('../fixtures/osv/', import.meta.url));
+export const OSV_RECORDINGS_DIR = fileURLToPath(new URL('../../fixtures/osv/', import.meta.url));
 
 export type ReportFixtureName = 'clean' | 'with-vulnerabilities';
 
@@ -37,7 +37,7 @@ export type Mutable<T> = {
 export function loadReportFixture(name: ReportFixtureName): unknown {
   return JSON.parse(
     readFileSync(
-      fileURLToPath(new URL(`../fixtures/reports/${name}.json`, import.meta.url)),
+      fileURLToPath(new URL(`../../fixtures/reports/${name}.json`, import.meta.url)),
       'utf8',
     ),
   ) as unknown;
