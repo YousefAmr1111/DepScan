@@ -1,0 +1,7 @@
+{
+  "name": "@depscan/dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Placeholder. Reads report.json produced by the core engine. Must contain no analysis logic."
+}
